@@ -1,0 +1,96 @@
+Circuit: * D:\INGENIERIA ELECTRONICA\11. Onceavo Semestre\Diseño de Sistemas Electrónicos\Design Project\Proyecto\Archivos Mauro\OTA_ADD_CurrentMirror.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m1          m2          m6          m7          m0
+Model:   nmos_cd4007 nmos_cd4007 nmos_cd4007 nmos_cd4007 nmos_cd4007
+Id:        3.28e-05    3.28e-05    3.37e-05    3.28e-05    3.50e-05
+Vgs:       1.63e+00    1.63e+00    1.63e+00    1.63e+00    1.63e+00
+Vds:       7.78e-01    7.78e-01    1.06e+00    6.74e-01    1.63e+00
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:       1.42e+00    1.42e+00    1.42e+00    1.42e+00    1.42e+00
+Vdsat:     1.84e-01    1.84e-01    1.85e-01    1.85e-01    1.86e-01
+Gm:        2.95e-04    2.95e-04    3.02e-04    2.93e-04    3.12e-04
+Gds:       2.58e-06    2.58e-06    2.39e-06    2.72e-06    2.18e-06
+Gmb        1.10e-04    1.10e-04    1.12e-04    1.09e-04    1.16e-04
+Cbd:       4.15e-14    4.15e-14    3.85e-14    4.29e-14    3.40e-14
+Cbs:       5.60e-14    5.60e-14    5.60e-14    5.60e-14    5.60e-14
+Cgsov:     6.53e-14    6.53e-14    6.53e-14    6.53e-14    6.53e-14
+Cgdov:     6.53e-14    6.53e-14    6.53e-14    6.53e-14    6.53e-14
+Cgbov:     2.76e-15    2.76e-15    2.76e-15    2.76e-15    2.76e-15
+dQgdVgb:   4.96e-13    4.96e-13    4.96e-13    4.96e-13    4.96e-13
+dQgdVdb:  -6.52e-14   -6.52e-14   -6.51e-14   -6.53e-14   -6.51e-14
+dQgdVsb:  -3.94e-13   -3.94e-13   -3.94e-13   -3.94e-13   -3.94e-13
+dQddVgb:  -1.90e-13   -1.90e-13   -1.90e-13   -1.90e-13   -1.90e-13
+dQddVdb:   1.07e-13    1.07e-13    1.04e-13    1.08e-13    9.92e-14
+dQddVsb:   1.75e-13    1.75e-13    1.75e-13    1.75e-13    1.75e-13
+dQbdVgb:  -5.39e-14   -5.39e-14   -5.39e-14   -5.38e-14   -5.40e-14
+dQbdVdb:  -4.15e-14   -4.15e-14   -3.85e-14   -4.29e-14   -3.40e-14
+dQbdVsb:  -1.65e-13   -1.65e-13   -1.65e-13   -1.65e-13   -1.65e-13
+
+Name:        m01         m3          m4          m5
+Model:   nmos_cd4007 pmos_cd4007 pmos_cd4007 pmos_cd4007
+Id:        3.28e-05    3.28e-05    3.28e-05    3.37e-05
+Vgs:       1.63e+00    0.00e+00   -4.22e-14    3.93e-01
+Vds:       6.74e-01    1.85e+00    1.85e+00    2.24e+00
+Vbs:       0.00e+00    1.85e+00    1.85e+00    2.24e+00
+Vth:       1.42e+00   -1.61e+00   -1.61e+00   -1.61e+00
+Vdsat:     1.85e-01   -2.09e-01   -2.09e-01   -2.10e-01
+Gm:        2.93e-04    2.79e-04    2.79e-04    2.85e-04
+Gds:       2.72e-06    2.79e-06    2.79e-06    2.84e-06
+Gmb        1.09e-04    4.66e-05    4.66e-05    4.70e-05
+Cbd:       4.29e-14    9.78e-14    9.78e-14    9.78e-14
+Cbs:       5.60e-14    5.74e-14    5.74e-14    5.37e-14
+Cgsov:     6.53e-14    1.77e-13    1.77e-13    1.77e-13
+Cgdov:     6.53e-14    1.77e-13    1.77e-13    1.77e-13
+Cgbov:     2.76e-15    1.72e-15    1.72e-15    1.72e-15
+dQgdVgb:   4.96e-13    8.33e-13    8.33e-13    8.33e-13
+dQgdVdb:  -6.53e-14   -1.75e-13   -1.75e-13   -1.75e-13
+dQgdVsb:  -3.94e-13   -5.67e-13   -5.67e-13   -5.66e-13
+dQddVgb:  -1.90e-13   -3.42e-13   -3.42e-13   -3.42e-13
+dQddVdb:   1.08e-13    2.74e-13    2.74e-13    2.74e-13
+dQddVsb:   1.75e-13    1.98e-13    1.98e-13    1.98e-13
+dQbdVgb:  -5.38e-14   -6.78e-14   -6.78e-14   -6.78e-14
+dQbdVdb:  -4.29e-14   -9.72e-14   -9.72e-14   -9.72e-14
+dQbdVsb:  -1.65e-13   -1.63e-13   -1.63e-13   -1.59e-13
+
+
+
+Date: Sat Apr  6 13:00:23 2024
+Total elapsed time: 0.607 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 380
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 29
+fillins = 12
+solver = Normal
+Avg thread counts: 6.3/0.0/8.0/6.3
+Matrix Compiler1: 2.93 KB object code size
+Matrix Compiler2: 3.03 KB object code size  1.4/2.0/[0.7]
+

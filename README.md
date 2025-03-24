@@ -1,4 +1,9 @@
-# Electronic-Systems-Design-Project-Files
+# Electronic Systems Design Project-Files (2024-1)
 
-Here all the files corresponding to the development of the subject project are available, 
-such as schematics, PCB Layout, general documentation, list of components, among others.
+Here you will find all the files related to the project development, such as schematics, 
+PCB design, general documentation, component list, and more.
+
+Group members:
+- Diego García.
+- Daniel Rojas.
+- Mauricio Ortiz.
